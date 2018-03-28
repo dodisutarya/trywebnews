@@ -12,7 +12,10 @@ function load_file() {
 add_action('wp_enqueque_scripts', 'load_file');
 */
 
-register_nav_menus(array())
+register_nav_menus(array(
+  'main_menu' => 'Menu Utama',
+  'footer_menu' => 'Menu Footer'
+));
 
 
 ?>
